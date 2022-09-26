@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    margin: 50px;
+    max-width: 400px;
+    align-self: center;
+    background: #1A1B21;
+    margin: 0 auto;
+}
+
+img {
+    height: 80%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info--h1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 2px;
+    color: #F8F0E3;
+}
+
+.info--h4 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2px;
+    color: #61DAFB;;
+}
+
+.info--button {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 20px;
+    background-color: #F8F0E3;
+}
+
+button > a {
+    text-decoration: none;
+    color: #1A1B21;
+}
+
+#info--envelope {
+    margin: 0 10px;
+    color:#1A1B21;
+}
+
+
+.section-header {
+    margin: 0;
+    color:#F8F0E3;
+    margin: 20px 50px 5px 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    color:#F8F0E3;
+    font-weight: 200;
+    
+    margin: 0 50px;
+}
+
+.footer {
+    background-color: #6b6e80;
+    height: 64px;
+    margin-top: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#footer--twitter, #footer--insta, #footer--github, #footer--linkedin {
+    
+    margin: 20px;
+    padding-left:25px;
+    font-size: 2rem;
+    color: #61DAFB;
+}
