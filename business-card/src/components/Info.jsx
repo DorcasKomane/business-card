@@ -7,7 +7,7 @@ export default function Info(){
             <img src={photo} />
             <h1 className="info--h1">Dorcas Komane</h1>
             <h4 className="info--h4">Frontend Developer</h4>
-            <button className="info--button"><i class="fa-solid fa-envelope" id="info--envelope"></i>Email</button>
+            <button className="info--button"><a href="#"><i class="fa-solid fa-envelope" id="info--envelope"></i>Email</a></button>
         </div>
     )
 }
